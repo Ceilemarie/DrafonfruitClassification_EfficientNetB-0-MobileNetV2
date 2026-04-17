@@ -23,7 +23,7 @@ The goal of this project is to provide a reliable tool for farmers and distribut
 </div>
 
 #### **Preprocessing Steps:**
-* **Standardization:** All images were resized to **224x224 pixels**.
+* **Standardization:** All images were resized to **300x300 pixels**.
 * **Augmentation:** Applied offline techniques (Horizontal/Vertical Flipping and 180° Rotation) to the minority class to achieve a balanced **52:48 distribution**.
 * **Normalization:** Pixel values were rescaled using model-specific preprocessing functions.
 
